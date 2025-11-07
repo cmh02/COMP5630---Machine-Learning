@@ -1,0 +1,432 @@
+{
+    "0.1": {
+        "sigmoid": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 428.7023735046387,
+                "validationLossAverage": 443.2148094177246,
+                "validationLossFinal": 397.9805908203125,
+                "validationLossBest": 397.9805908203125,
+                "validationLossBestEpoch": 5,
+                "validationMAEAverage": 16.331300735473633,
+                "validationMAEFinal": 15.127604484558105,
+                "testLoss": 395.4930114746094,
+                "testMAE": 15.106664657592773,
+                "numEpochsRan": 8,
+                "trainingTime": 199.21490049362183
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 429.4518676757813,
+                "validationLossAverage": 412.65748596191406,
+                "validationLossFinal": 399.1559753417969,
+                "validationLossBest": 395.9809265136719,
+                "validationLossBestEpoch": 5,
+                "validationMAEAverage": 15.516100883483887,
+                "validationMAEFinal": 15.688884735107422,
+                "testLoss": 396.78778076171875,
+                "testMAE": 15.66638469696045,
+                "numEpochsRan": 10,
+                "trainingTime": 236.02706575393677
+            }
+        },
+        "relu": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 8228774885.683742,
+                "validationLossAverage": 402.0271780831473,
+                "validationLossFinal": 396.77447509765625,
+                "validationLossBest": 396.77447509765625,
+                "validationLossBestEpoch": 4,
+                "validationMAEAverage": 15.065298352922712,
+                "validationMAEFinal": 15.19892406463623,
+                "testLoss": 394.30584716796875,
+                "testMAE": 15.177718162536621,
+                "numEpochsRan": 7,
+                "trainingTime": 172.75736260414124
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 10685980337.17251,
+                "validationLossAverage": 412.48272399902345,
+                "validationLossFinal": 396.8824768066406,
+                "validationLossBest": 396.8824768066406,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 15.07057752609253,
+                "validationMAEFinal": 15.190152168273926,
+                "testLoss": 394.41180419921875,
+                "testMAE": 15.168971061706543,
+                "numEpochsRan": 10,
+                "trainingTime": 233.25143432617188
+            }
+        },
+        "tanh": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 450.15024820963544,
+                "validationLossAverage": 469.79437934027777,
+                "validationLossFinal": 396.647216796875,
+                "validationLossBest": 396.647216796875,
+                "validationLossBestEpoch": 6,
+                "validationMAEAverage": 17.048635800679524,
+                "validationMAEFinal": 15.210006713867188,
+                "testLoss": 394.1812438964844,
+                "testMAE": 15.188770294189453,
+                "numEpochsRan": 9,
+                "trainingTime": 216.28421926498413
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 452.8244964599609,
+                "validationLossAverage": 494.2096008300781,
+                "validationLossFinal": 443.89154052734375,
+                "validationLossBest": 397.3965759277344,
+                "validationLossBestEpoch": 8,
+                "validationMAEAverage": 16.99221715927124,
+                "validationMAEFinal": 15.231350898742676,
+                "testLoss": 441.2008972167969,
+                "testMAE": 15.214432716369629,
+                "numEpochsRan": 10,
+                "trainingTime": 238.027996301651
+            }
+        }
+    },
+    "0.01": {
+        "sigmoid": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 406.2789001464844,
+                "validationLossAverage": 398.09327697753906,
+                "validationLossFinal": 395.931396484375,
+                "validationLossBest": 395.931396484375,
+                "validationLossBestEpoch": 7,
+                "validationMAEAverage": 15.34996738433838,
+                "validationMAEFinal": 15.358320236206055,
+                "testLoss": 393.4999084472656,
+                "testMAE": 15.336684226989746,
+                "numEpochsRan": 10,
+                "trainingTime": 239.30007672309875
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 406.6760009765625,
+                "validationLossAverage": 397.0098083496094,
+                "validationLossFinal": 399.291259765625,
+                "validationLossBest": 395.92803955078125,
+                "validationLossBestEpoch": 7,
+                "validationMAEAverage": 15.353314781188965,
+                "validationMAEFinal": 15.088168144226074,
+                "testLoss": 396.7888488769531,
+                "testMAE": 15.067501068115234,
+                "numEpochsRan": 10,
+                "trainingTime": 239.08513236045837
+            }
+        },
+        "relu": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 720.3237152099609,
+                "validationLossAverage": 203.3954216003418,
+                "validationLossFinal": 127.92537689208984,
+                "validationLossBest": 127.92537689208984,
+                "validationLossBestEpoch": 9,
+                "validationMAEAverage": 10.55573787689209,
+                "validationMAEFinal": 8.340575218200684,
+                "testLoss": 130.24139404296875,
+                "testMAE": 8.36280632019043,
+                "numEpochsRan": 10,
+                "trainingTime": 236.52635431289673
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 501.6311767578125,
+                "validationLossAverage": 227.55086669921874,
+                "validationLossFinal": 136.7313690185547,
+                "validationLossBest": 136.7313690185547,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 11.30789794921875,
+                "validationMAEFinal": 8.78622055053711,
+                "testLoss": 138.94847106933594,
+                "testMAE": 8.780843734741211,
+                "numEpochsRan": 10,
+                "trainingTime": 235.70242953300476
+            }
+        },
+        "tanh": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 406.2472229003906,
+                "validationLossAverage": 401.2070770263672,
+                "validationLossFinal": 396.1603698730469,
+                "validationLossBest": 396.1603698730469,
+                "validationLossBestEpoch": 1,
+                "validationMAEAverage": 15.509265422821045,
+                "validationMAEFinal": 15.266234397888184,
+                "testLoss": 393.707763671875,
+                "testMAE": 15.244829177856445,
+                "numEpochsRan": 4,
+                "trainingTime": 111.75792741775513
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 408.6232391357422,
+                "validationLossAverage": 398.87706298828124,
+                "validationLossFinal": 411.2505187988281,
+                "validationLossBest": 395.94024658203125,
+                "validationLossBestEpoch": 8,
+                "validationMAEAverage": 15.267788505554199,
+                "validationMAEFinal": 14.9691743850708,
+                "testLoss": 408.671142578125,
+                "testMAE": 14.949928283691406,
+                "numEpochsRan": 10,
+                "trainingTime": 240.099102973938
+            }
+        }
+    },
+    "0.001": {
+        "sigmoid": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 421.36574096679686,
+                "validationLossAverage": 396.279443359375,
+                "validationLossFinal": 395.9602355957031,
+                "validationLossBest": 395.9602355957031,
+                "validationLossBestEpoch": 2,
+                "validationMAEAverage": 15.259292221069336,
+                "validationMAEFinal": 15.31329345703125,
+                "testLoss": 393.5188293457031,
+                "testMAE": 15.291751861572266,
+                "numEpochsRan": 5,
+                "trainingTime": 133.37770247459412
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 414.64403076171874,
+                "validationLossAverage": 396.12054443359375,
+                "validationLossFinal": 395.9278259277344,
+                "validationLossBest": 395.9278259277344,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 15.289430713653564,
+                "validationMAEFinal": 15.335271835327148,
+                "testLoss": 393.4912414550781,
+                "testMAE": 15.31368637084961,
+                "numEpochsRan": 10,
+                "trainingTime": 241.876873254776
+            }
+        },
+        "relu": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 152.9106590270996,
+                "validationLossAverage": 144.9665313720703,
+                "validationLossFinal": 97.24852752685547,
+                "validationLossBest": 97.24852752685547,
+                "validationLossBestEpoch": 7,
+                "validationMAEAverage": 8.85795545578003,
+                "validationMAEFinal": 7.262124538421631,
+                "testLoss": 99.37332916259766,
+                "testMAE": 7.342142581939697,
+                "numEpochsRan": 10,
+                "trainingTime": 240.66527891159058
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 146.8875373840332,
+                "validationLossAverage": 144.38421401977538,
+                "validationLossFinal": 113.97286987304688,
+                "validationLossBest": 100.59424591064453,
+                "validationLossBestEpoch": 9,
+                "validationMAEAverage": 8.813491153717042,
+                "validationMAEFinal": 7.664700031280518,
+                "testLoss": 111.42451477050781,
+                "testMAE": 7.5435333251953125,
+                "numEpochsRan": 10,
+                "trainingTime": 240.5809736251831
+            }
+        },
+        "tanh": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 404.1272399902344,
+                "validationLossAverage": 396.131494140625,
+                "validationLossFinal": 395.93145751953125,
+                "validationLossBest": 395.93145751953125,
+                "validationLossBestEpoch": 2,
+                "validationMAEAverage": 15.315761947631836,
+                "validationMAEFinal": 15.33116340637207,
+                "testLoss": 393.4936218261719,
+                "testMAE": 15.309581756591797,
+                "numEpochsRan": 5,
+                "trainingTime": 133.8117573261261
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 401.3056945800781,
+                "validationLossAverage": 396.24819030761716,
+                "validationLossFinal": 395.9904479980469,
+                "validationLossBest": 395.9249267578125,
+                "validationLossBestEpoch": 4,
+                "validationMAEAverage": 15.347240447998047,
+                "validationMAEFinal": 15.301995277404785,
+                "testLoss": 393.5465393066406,
+                "testMAE": 15.280484199523926,
+                "numEpochsRan": 10,
+                "trainingTime": 243.54901576042175
+            }
+        }
+    },
+    "0.0001": {
+        "sigmoid": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 481.3238250732422,
+                "validationLossAverage": 451.4583343505859,
+                "validationLossFinal": 395.9546203613281,
+                "validationLossBest": 395.9546203613281,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 16.015384483337403,
+                "validationMAEFinal": 15.315930366516113,
+                "testLoss": 393.5135498046875,
+                "testMAE": 15.294391632080078,
+                "numEpochsRan": 10,
+                "trainingTime": 249.90671610832214
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 483.9528076171875,
+                "validationLossAverage": 453.7848785400391,
+                "validationLossFinal": 396.0057678222656,
+                "validationLossBest": 396.0057678222656,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 16.048812675476075,
+                "validationMAEFinal": 15.297321319580078,
+                "testLoss": 393.5606689453125,
+                "testMAE": 15.275816917419434,
+                "numEpochsRan": 10,
+                "trainingTime": 248.9452133178711
+            }
+        },
+        "relu": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 176.29489135742188,
+                "validationLossAverage": 162.25481033325195,
+                "validationLossFinal": 109.23490142822266,
+                "validationLossBest": 109.23490142822266,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 9.63358540534973,
+                "validationMAEFinal": 7.771421909332275,
+                "testLoss": 113.1653823852539,
+                "testMAE": 7.94276237487793,
+                "numEpochsRan": 10,
+                "trainingTime": 247.48236083984375
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 180.18049697875978,
+                "validationLossAverage": 167.0469970703125,
+                "validationLossFinal": 111.66178131103516,
+                "validationLossBest": 111.66178131103516,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 9.547165060043335,
+                "validationMAEFinal": 7.8380279541015625,
+                "testLoss": 115.33463287353516,
+                "testMAE": 8.019330024719238,
+                "numEpochsRan": 10,
+                "trainingTime": 247.83836102485657
+            }
+        },
+        "tanh": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 414.94977315266925,
+                "validationLossAverage": 400.05165100097656,
+                "validationLossFinal": 395.936767578125,
+                "validationLossBest": 395.936767578125,
+                "validationLossBestEpoch": 3,
+                "validationMAEAverage": 15.229762236277262,
+                "validationMAEFinal": 15.326123237609863,
+                "testLoss": 393.49871826171875,
+                "testMAE": 15.304601669311523,
+                "numEpochsRan": 6,
+                "trainingTime": 159.32088494300842
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 412.0280517578125,
+                "validationLossAverage": 399.6456298828125,
+                "validationLossFinal": 395.9331359863281,
+                "validationLossBest": 395.9254455566406,
+                "validationLossBestEpoch": 6,
+                "validationMAEAverage": 15.267176723480224,
+                "validationMAEFinal": 15.360560417175293,
+                "testLoss": 393.50384521484375,
+                "testMAE": 15.33901596069336,
+                "numEpochsRan": 10,
+                "trainingTime": 246.45160698890686
+            }
+        }
+    },
+    "1e-05": {
+        "sigmoid": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 871.331787109375,
+                "validationLossAverage": 858.3927856445313,
+                "validationLossFinal": 761.5095825195312,
+                "validationLossBest": 761.5095825195312,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 23.675619316101074,
+                "validationMAEFinal": 22.013120651245117,
+                "testLoss": 758.3677978515625,
+                "testMAE": 21.996994018554688,
+                "numEpochsRan": 10,
+                "trainingTime": 248.17141890525818
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 806.5417236328125,
+                "validationLossAverage": 793.62568359375,
+                "validationLossFinal": 695.8779907226562,
+                "validationLossBest": 695.8779907226562,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 22.55638542175293,
+                "validationMAEFinal": 20.781076431274414,
+                "testLoss": 692.8029174804688,
+                "testMAE": 20.76497459411621,
+                "numEpochsRan": 10,
+                "trainingTime": 246.56018781661987
+            }
+        },
+        "relu": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 331.8194976806641,
+                "validationLossAverage": 293.52436981201174,
+                "validationLossFinal": 221.61575317382812,
+                "validationLossBest": 221.61575317382812,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 13.016851902008057,
+                "validationMAEFinal": 11.674036026000977,
+                "testLoss": 221.4301300048828,
+                "testMAE": 11.775598526000977,
+                "numEpochsRan": 10,
+                "trainingTime": 246.3688132762909
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 303.5772369384766,
+                "validationLossAverage": 270.0922454833984,
+                "validationLossFinal": 192.5950469970703,
+                "validationLossBest": 192.5950469970703,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 12.394707202911377,
+                "validationMAEFinal": 10.545656204223633,
+                "testLoss": 193.79928588867188,
+                "testMAE": 10.629733085632324,
+                "numEpochsRan": 10,
+                "trainingTime": 245.37299251556396
+            }
+        },
+        "tanh": {
+            "doEarlyStopping": {
+                "trainingLossAverage": 493.22962341308596,
+                "validationLossAverage": 480.3886993408203,
+                "validationLossFinal": 420.9035949707031,
+                "validationLossBest": 420.9035949707031,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 16.11572399139404,
+                "validationMAEFinal": 14.99446964263916,
+                "testLoss": 418.2864074707031,
+                "testMAE": 14.97614574432373,
+                "numEpochsRan": 10,
+                "trainingTime": 247.39635038375854
+            },
+            "noEarlyStopping": {
+                "trainingLossAverage": 467.339501953125,
+                "validationLossAverage": 455.93385009765626,
+                "validationLossFinal": 410.82965087890625,
+                "validationLossBest": 410.82965087890625,
+                "validationLossBestEpoch": 10,
+                "validationMAEAverage": 15.626288223266602,
+                "validationMAEFinal": 14.969535827636719,
+                "testLoss": 408.2561340332031,
+                "testMAE": 14.950383186340332,
+                "numEpochsRan": 10,
+                "trainingTime": 246.30627846717834
+            }
+        }
+    }
+}
